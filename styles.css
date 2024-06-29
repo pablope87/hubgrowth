@@ -249,7 +249,8 @@ footer {
     text-decoration: none;
 }
 
-.footer_rrss a {
+.footer_rrss img {
+    width: 8rem;
     padding: 10px;
 }
 
