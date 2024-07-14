@@ -1,147 +1,228 @@
 /* General Styles */
-body {
+*{
     margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
     font-family: "Inter Tight", sans-serif;
 }
 
 section {
     display: flex;
+    flex-direction: column;
     justify-content: center; 
-    align-items: center; 
-    text-align: center;
-}
-
-/* Navbar */
-header {
-    width: 100%;
-    height: auto;
-    background-color: rgba(255, 255, 255, 0.9);
-    position: fixed;
-    top: 0;
-    z-index: 2;
-}
-
-.logo img {
-    width: 10rem;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    height: 100px;
+    text-align: center;
+    padding: 2rem;
     width: 100%;
-    background: transparent; 
+    height: 80vh;
+    
 }
 
-.nav-links {
-    list-style: none;
+.footer-columns {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-column {
+    padding: 10px 0;
+}
+/* End General Styles */
+
+/* Modal cookies */
+#exampleModal .switches{
     display: flex;
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
+    margin: 15px;
 }
 
-.nav-links a:hover {
-    color: #9F9FFF;
+#exampleModal img{
+width: 300px;
+margin-bottom: 20px;
 }
 
-.nav-links li {
-    margin-right: 15px;
-    font-size: 1.0rem;
-    font-weight: 500;
+#exampleModal .mas-info{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
 }
 
-.nav-links a {
-    text-decoration: none;
+/* End Modal cookies */
+
+/* Tipografía */
+.gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big-title-a{
+    font-size: 4rem;
+    font-weight: 700;
     color: #8559CD;
 }
 
-.menu-toggle {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
+.big-title-b{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
 }
+/* End Tipografía */
 
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: rgb(122, 92, 231);
-    margin: 3px 0;
+/* Buttons */
+/* Boton Ingresar */
+.btn-outline-primary{
+    border-color: #8559CD;
+    color: #8559CD;
 }
+.btn-outline-primary:hover{
+    background-color: #8559CD;
+    border-color: #8559CD;
+    color: #fff;
+}
+/* End Boton Ingresar */
+/* Boton Registrarse */
+.btn-primary{
+    background-color: #8559CD;
+    border-color: #8559CD;
+}
+.btn-primary:hover{
+    background-color: #7d3cec;
+    border-color: #7d3cec;
+}
+/* End Boton Registrarse */
+/* End Buttons */
 
-/* End Navbar */
+/* End General Styles */
 
-/* Section Home */
-#home {
-    height: 100vh;
+/* Header */
+header{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    padding: 50px;
+    margin-bottom: 100px;
 }
 
-.home-contenido {
+header .header-logo img{
+    width: 10rem;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-buttons{
+    display: none;
+}
+
+header .header-buttons a{
+display: none;
+
+}
+
+
+
+/* End Header */
+
+/* Fondo compartido */
+.fondo-compartido{
+    background-image: url(./Assets/Backgrounds/fondo-compartido-naranja.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+}
+
+.fondo-compartido img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+/* End Fondo compartido */
+
+
+/* section1 */
+#section1 img{
+    height: 40rem;
+}
+
+.section1_contenido {
     text-align: left;
 }
 
-.home-contenido h6 {
+.section1_contenido h6 {
     margin-top: 15px;
     color: #6d6d6d;
 }
 
-.home-contenido button {
+.section1_contenido button {
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
-/* End Section Home */
+/* End section1 */
 
 /* section2 */
 #section2 {
-    height: auto;
-    text-align: center;
-    background-color: #ecdbf3;
-    padding: 50px;
+    height: 80vh;
+}
+
+#section2 img{
+    height: 30rem;
 }
 
 .section2_contenido {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #616161;
+    text-align: left;
+    color:#000;
 }
 
-.section2_contenido h2 {
-    margin-bottom: 5%;
+.section2_contenido h6 {
+    margin-top: 15px;
+    color:#373737;
 }
 
-#section2 img {
-    height: 12rem;
-    margin-bottom: 20px;
-    color: #7d3cec;
+.section2_contenido button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.big-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #8559CD;
 }
 
 /* End Section section2 */
 
 /* section3 */
 #section3 {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
+}
+
+#section3 img{
+    height: 40rem;
 }
 
 .section3_contenido {
     text-align: left;
+    color: #fff;
 }
 
 .section3_contenido h6 {
     margin-top: 15px;
-    color: #6d6d6d;
+    color: #373737;
 }
 
 .section3_contenido button {
@@ -152,26 +233,37 @@ header {
 /* End section3 */
 
 /* section4 */
-#section4 {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
-.section4-contenido {
+
+
+.section4_contenido {
     text-align: left;
+    color: #000;
+    margin: 30px;
 }
 
 .section4_contenido h6 {
     margin-top: 15px;
-    color: #6d6d6d;
+    color: #373737;
 }
 
 .section4_contenido button {
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+#section4 img{
+    height: 20rem;
+    margin-bottom: 40px;
+}
+
+.blockquote-footer{
+    color: rgb(72, 72, 72);
+}
+
+#carouselExampleSlidesOnly img{
+    width: 20rem;
+    height: auto;
 }
 
 /* End section4 */
@@ -182,6 +274,7 @@ footer {
     padding: 100px 100px 20px 100px;
     text-align: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 .logos-sponsors {
@@ -255,95 +348,70 @@ footer {
 }
 
 /* Politicas de privacidad */
-#section-privacy {
-}
+
+
 
 /* End Politicas de privacidad */
 
+
+
 /* Responsive Styles */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
+@media (min-width: 480px) {
+    header{
+        display: flex;
+        flex-direction: row;
         width: 100%;
-        text-align: center;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.9);
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        padding: 50px;
+        margin-bottom: 10em;
     }
-
-    .nav-links li {
-        margin: 10px 0;
+    
+    header .header-logo img{
+        width: 10rem;
     }
-
-    .menu-toggle {
+    
+    header .container{
         display: flex;
-    }
-
-    .nav-active {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer-columns {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
     }
 
-    .footer-column {
-        padding: 10px 0;
-    }
-
-    section, #home, #section2 #section3, #section4 {
-        height: auto;
-        padding: 20px;
-        text-align: center;
+    header .header-buttons{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: end;
+        width: 100%;
     }
-
-    .home-contenido, .section3_contenido, .section4_contenido {
-        text-align: center;
+    
+    header .header-buttons a{
+        margin-left: 1rem;
+        margin-right: 1rem;   
     }
 }
 
-@media (max-width: 1024px) {
-    .menu-toggle {
-        display: flex;
-        flex-direction: column;
-        cursor: pointer;
-        transition: transform 0.3s ease-in-out;
-    }
 
-    .nav-links {
-        list-style: none;
+@media (min-width: 768px) {
+
+    header .header-buttons{
         display: flex;
-        flex-direction: column;
-        position: fixed;
-        background-color: #e6d0fb;
+        flex-direction: row;
+        justify-content: end;
         width: 100%;
-        top: 100px;
-        left: 0;
-        text-align: center;
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-        transform: translateY(-10px);
+    }
+    
+    header .header-buttons a{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    
     }
 
-    .nav-links.show {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-        z-index: 2;
-    }
+header .container{
+    flex-direction: column;
 
-    .nav-links li {
-        margin: 10px 0;
-    }
-
-    .nav-links a {
-        color: #8559CD;
-    }
+}
 }

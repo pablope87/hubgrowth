@@ -32,53 +32,11 @@
     </head>
 <body>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Preferencias de cookies</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-            </div>
-            <div class="modal-body">
-                <img src="../Assets/illustrations/Cookie.png" alt="cookie picture">
-              <p>Esta web utiliza cookies para garantizar las funcionalidades básicas y para mejorar su experiencia online. Puedes elegir activarlas o desactivalas cuando quieras para cualquier categoría. Para obtener más información en relación con las cookies y otros datos confidenciales, lee la <a href="./legal2.html">política de privacidad.</a></p>
-            </div>
-            <!-- Switches -->
-            <div class="switches">
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
-                    <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Cookies estrictamente necesarias</label>
-                </div>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                    <label class="form-check-label" for="flexSwitchCheckDefault">Cookies de rendimiento y análisis</label>
-                </div>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                    <label class="form-check-label" for="flexSwitchCheckDefault">Cookies de publicidad</label>
-                </div>
-
-                
-            </div>
-            <div class="mas-info">
-                <h6>Más información</h6>
-                <p>Para cualquier consulta en relación con nuestra política sobre cookies y sus elecciones, lea nuestra <a href="/Pages/legal2.html">política de cookies.</a> </p>               
-            </div>
-
-              <!-- End Switches -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar todo</button>
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Rechazar todo</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
     <!-- HEADER -->
     <header>
         <div class="container">
             <div class="header-logo">
-                <img src="../Assets/logos/LogoHG.svg" alt="logo">
+                <img src="./Assets/logos/LogoHG.svg" alt="logo">
             </div>
             <div class="header-buttons">
                 <a href="https://app.thehubgrowth.com/auth/signin?redirect_url=https%3A%2F%2Fapp.thehubgrowth.com%2F"><button type="button" class="btn btn-outline-primary">Ingresar</button></a>
@@ -426,14 +384,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
 
-    <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
-      backdrop: 'static',
-      keyboard: false
-    });
-    myModal.show();
-  });
-      </script>
 </body>
 </html>
