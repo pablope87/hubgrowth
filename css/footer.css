@@ -1,0 +1,30 @@
+/* Footer */
+footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #373737;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.logos-footer img{
+    width: 10rem;
+    margin: 20px;
+}
+
+footer a, p{
+    text-decoration: none;
+    color: #8c8989;
+}
+
+.lanzadera img{
+    margin-top: 0;
+}
+
+.lanzadera p{
+    margin-bottom: 5px;
+}

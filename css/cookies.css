@@ -1,0 +1,18 @@
+/* Modal cookies */
+#exampleModal .switches{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+#exampleModal img{
+width: 300px;
+margin-bottom: 20px;
+}
+
+#exampleModal .mas-info{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+/* End Modal cookies */

@@ -1,0 +1,42 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter Tight", sans-serif;
+}
+
+main{
+    padding-top: 60px;
+}
+/* End General Styles */
+
+
+/* Buttons */
+/* Boton Ingresar */
+.btn-outline-primary{
+    border-color: #8559CD;
+    color: #8559CD;
+    
+}
+.btn-outline-primary:hover{
+    background-color: #8559CD;
+    border-color: #8559CD;
+    color: #fff;
+}
+/* End Boton Ingresar */
+/* Boton Registrarse */
+.btn-primary{
+    background-color: #8559CD;
+    border-color: #8559CD;
+}
+.btn-primary:hover{
+    background-color: #7d3cec;
+    border-color: #7d3cec;
+}
+/* End Boton Registrarse */
+/* End Buttons */
+
