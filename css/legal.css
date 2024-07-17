@@ -1,10 +1,7 @@
 /* Politicas de privacidad */
-.titulo-politicas
 
-.sub-titulo-politicas
-
-main p{
-    margin: 30px;
+main .container{
     padding: 30px;
+
 }
 /* End Politicas de privacidad */
