@@ -1,2 +1,80 @@
 /* Responsive Styles */
-@media (min-width: 700px) 
+@media (min-width: 768px){
+
+    section{
+        height: 70vh;
+        background-size: cover;
+    }
+
+    #section1 img{
+        height: 25rem;
+        width: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    #section2 img{
+        height: 25rem;
+        width: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    #section3 img{
+        height: 25rem;
+        width: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    main{
+        padding-top: 80px;
+    }
+
+    header{
+        height: 80px;
+        display: flex;
+
+    }
+    
+    header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    
+    header .header-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    header .header-buttons a{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        }
+
+
+
+} 
+
+@media (min-width: 1024px){
+    footer .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        align-items: center;
+
+
+    }
+
+
+}

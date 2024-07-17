@@ -6,6 +6,7 @@ section{
     padding: 30px;
     width: 100%;
     height: auto;
+
     
 }
 
@@ -48,7 +49,7 @@ section h5{
 
 /* section1 */
 #section1{
-    background-image: url(../Assets/Backgrounds/background-section1.webp);
+    background-image: url(../Assets/Backgrounds/background-section1small.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
