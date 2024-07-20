@@ -26,6 +26,8 @@ section img{
     margin-bottom: 40px;
 }
 
+
+
 section h5{
     margin-bottom: 20px;
 }
@@ -58,13 +60,15 @@ section h5{
     color: #fff;
     font-weight: 400;
 }
+
+#section1 .arrow img{
+    height: 50px;
+}
 /* End section1 */
 
 /* section2 */
-#section2{
-    /* background-image: url(../Assets/Backgrounds/fondo-compartido-naranja.webp);
-    background-repeat: no-repeat;
-    background-size: cover; */
+#section2 .arrow img{
+    height: 50px;
 }
 #section2 h5{
     font-weight: 400;
@@ -73,14 +77,23 @@ section h5{
 
 /* section3 */
 #section3{
-    background-image: url(../Assets/Backgrounds/background-section3.webp);
+    /* background-image: url(../Assets/Backgrounds/background-section3.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #F6A900;
+    color: #fff;
 }
 #section3 h5{
     font-weight: 400;
+}
+
+#section3 .arrow img{
+    height: 50px;
 }
 /* End section3 */
 
 /* section4 */
 /* End section4 */
+
+
+
